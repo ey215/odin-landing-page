@@ -69,3 +69,22 @@ button {
 img {
     font-family: "roboto", sans-serif;
 }
+
+.information {
+    background-color: white;
+    display: flex;
+}
+
+.information-image {
+    width: 300px;
+    height: 300px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
