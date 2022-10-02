@@ -1,6 +1,8 @@
 .header {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
+    
 }
 
 .header-logo {
@@ -49,4 +51,10 @@ button {
     font-size: 48px;
     font-weight: 1000;
 
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px
 }
