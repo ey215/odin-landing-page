@@ -5,15 +5,18 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-grow: 1;
     width: 80%;
+    height: 100px;
+    align-items: center;
     
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FaF8;
+    width: 500px;
 }
 
 .hero {
@@ -51,14 +54,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 400px;
+    width: 500px;
     height: 200px;
 
 }
 
 .hero-image {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     margin: 0 64px;
 
 }
@@ -72,7 +75,9 @@ button {
 .links {
     display: flex;
     justify-content: flex-end;
-    gap: 50px;
+    gap: 64px;
+    width: 600px;
+    margin: 0 64px;
 }
 
 img {
@@ -84,6 +89,7 @@ img {
     display: flex;
     flex-grow: 1;
     width: 80%;
+    height: 400px;
 }
 
 .information-image {
@@ -92,9 +98,18 @@ img {
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #3d3e3f;
     flex-grow: 1;
     width: 80%;
+    color: white;
+    height: 400px;
+}
+
+.call {
+    width: 80%;
+    background-color: #E5E7EB;
+    color: black;
+    height: 400px;
 }
 
 .footer {
@@ -114,4 +129,14 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.hero-secondary {
+    margin-bottom: 12px;
+}
+
+.hero-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
 }
