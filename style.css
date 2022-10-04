@@ -114,11 +114,31 @@ img {
 }
 
 .quote {
-    background-color: #3d3e3f;
+    background-color: #E5E7EB;
     flex-grow: 1;
     width: 80%;
-    color: white;
+    color: #1F2937;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-family: "sans-serif";
+    width: 696px;
+    margin-bottom: 12px;
+    font-weight: 100;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    width: 696px;
 }
 
 .call {
