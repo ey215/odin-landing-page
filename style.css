@@ -215,11 +215,31 @@ a {
     display: flex;
     background-color: #3882f6;
     color: white;
-    width: 696px;
-    height: 200px;
+    width: 900px;
+    height: 150px;
     border-radius: 12px;
+    align-items: center;
+    justify-content: center;
 }
 
 .call-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-words {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-button {
+    margin-left: 100px;
+    border-color: white;
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    border-width: 3px;
 
 }
