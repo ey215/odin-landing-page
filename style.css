@@ -143,9 +143,12 @@ img {
 
 .call {
     width: 80%;
-    background-color: #E5E7EB;
     color: black;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
 }
 
 .footer {
@@ -205,5 +208,18 @@ a {
     justify-content: center;
     align-items: center;
     gap: 32px;
+
+}
+
+.call-container {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    width: 696px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.call-title {
 
 }
