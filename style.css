@@ -156,6 +156,10 @@ img {
     color: white;
     flex-grow: 1;
     width: 80%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle-bar {
@@ -241,5 +245,4 @@ a {
     font-size: 24px;
     font-weight: bold;
     border-width: 3px;
-
 }
